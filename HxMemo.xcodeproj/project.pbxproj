@@ -13,6 +13,8 @@
 		9FD1DDEA2570FE6900F3584F /* HxMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9FD1DDE82570FE6900F3584F /* HxMemo.xcdatamodeld */; };
 		9FD1DDEC2570FE6C00F3584F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FD1DDEB2570FE6C00F3584F /* Assets.xcassets */; };
 		9FD1DDEF2570FE6C00F3584F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD1DDED2570FE6C00F3584F /* LaunchScreen.storyboard */; };
+		9FD1DDFC257109E600F3584F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD1DDFB257109E600F3584F /* Model.swift */; };
+		9FD1DDFF25710BF200F3584F /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD1DDFE25710BF200F3584F /* MemoListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9FD1DDEB2570FE6C00F3584F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FD1DDEE2570FE6C00F3584F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FD1DDF02570FE6C00F3584F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD1DDFB257109E600F3584F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9FD1DDFE25710BF200F3584F /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		9FD1DDDE2570FE6900F3584F /* HxMemo */ = {
 			isa = PBXGroup;
 			children = (
+				9FD1DDFA2571084500F3584F /* Model */,
 				9FD1DDDF2570FE6900F3584F /* AppDelegate.swift */,
 				9FD1DDE12570FE6900F3584F /* SceneDelegate.swift */,
 				9FD1DDE52570FE6900F3584F /* Main.storyboard */,
@@ -63,8 +68,17 @@
 				9FD1DDED2570FE6C00F3584F /* LaunchScreen.storyboard */,
 				9FD1DDF02570FE6C00F3584F /* Info.plist */,
 				9FD1DDE82570FE6900F3584F /* HxMemo.xcdatamodeld */,
+				9FD1DDFE25710BF200F3584F /* MemoListTableViewController.swift */,
 			);
 			path = HxMemo;
+			sourceTree = "<group>";
+		};
+		9FD1DDFA2571084500F3584F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9FD1DDFB257109E600F3584F /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +153,9 @@
 			files = (
 				9FD1DDEA2570FE6900F3584F /* HxMemo.xcdatamodeld in Sources */,
 				9FD1DDE02570FE6900F3584F /* AppDelegate.swift in Sources */,
+				9FD1DDFF25710BF200F3584F /* MemoListTableViewController.swift in Sources */,
 				9FD1DDE22570FE6900F3584F /* SceneDelegate.swift in Sources */,
+				9FD1DDFC257109E600F3584F /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
