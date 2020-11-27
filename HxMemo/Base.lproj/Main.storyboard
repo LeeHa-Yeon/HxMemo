@@ -108,8 +108,15 @@
                                 <action selector="close:" destination="JpF-Yb-m4a" id="8hp-Kx-zVI"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Save" id="msK-J2-wWh"/>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="msK-J2-wWh">
+                            <connections>
+                                <action selector="save:" destination="JpF-Yb-m4a" id="Goy-nU-HQW"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="memoTextView" destination="hiD-dc-BAK" id="lzF-lY-Z2j"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Li7-z9-0pI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
