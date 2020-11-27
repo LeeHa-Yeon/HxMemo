@@ -17,6 +17,7 @@
 		9FD1DDFF25710BF200F3584F /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD1DDFE25710BF200F3584F /* MemoListTableViewController.swift */; };
 		9FD1DE022571173900F3584F /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD1DE012571173900F3584F /* ComposeViewController.swift */; };
 		9FD1DE05257122EE00F3584F /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD1DE04257122EE00F3584F /* UIViewController+Alert.swift */; };
+		9FD1DE082571515D00F3584F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD1DE072571515D00F3584F /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		9FD1DDFE25710BF200F3584F /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 		9FD1DE012571173900F3584F /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		9FD1DE04257122EE00F3584F /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		9FD1DE072571515D00F3584F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				9FD1DDFE25710BF200F3584F /* MemoListTableViewController.swift */,
 				9FD1DE012571173900F3584F /* ComposeViewController.swift */,
 				9FD1DE04257122EE00F3584F /* UIViewController+Alert.swift */,
+				9FD1DE072571515D00F3584F /* DetailViewController.swift */,
 			);
 			path = HxMemo;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				9FD1DDE22570FE6900F3584F /* SceneDelegate.swift in Sources */,
 				9FD1DDFC257109E600F3584F /* Model.swift in Sources */,
 				9FD1DE05257122EE00F3584F /* UIViewController+Alert.swift in Sources */,
+				9FD1DE082571515D00F3584F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
