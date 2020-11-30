@@ -153,7 +153,11 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M0s-jT-B3x">
                                 <rect key="frame" x="0.0" y="813" width="414" height="49"/>
                                 <items>
-                                    <barButtonItem title="Item" id="ZlM-gD-A9r"/>
+                                    <barButtonItem style="plain" systemItem="compose" id="ZlM-gD-A9r">
+                                        <connections>
+                                            <segue destination="k1p-dB-Zdj" kind="presentation" id="kDW-hU-g4Z"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hc7-Vh-GUp">
@@ -213,12 +217,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="X9t-Ea-fRz"/>
+                    <connections>
+                        <outlet property="memoTableView" destination="hc7-Vh-GUp" id="vxT-N1-TEv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SPf-O0-pOd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1085.5072463768117" y="178.79464285714286"/>
+            <point key="canvasLocation" x="1086" y="164"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="kDW-hU-g4Z"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
