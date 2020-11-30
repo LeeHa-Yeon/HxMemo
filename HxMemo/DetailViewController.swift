@@ -30,6 +30,13 @@ class DetailViewController: UIViewController {
     }
     
     
+    @IBAction func share(_ sender: Any) {
+        guard let memo = memo?.content else{ return}
+        let vc = UIActivityViewController(activityItems: [memo], applicationActivities: nil)
+        present(vc, animated: true, completion: nil)
+    }
+    
+    
     var token:NSObjectProtocol?
     deinit {
         if let token = token {
